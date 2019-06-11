@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "node",
+      "AzureWebJobsStorage": "",
+      "TweetsQueue": "",
+      "AzureSignalRConnectionString": ""
+    },
+    "Host": {
+      "LocalHttpPort": 7071,
+      "CORS": "http://localhost:5000",
+      "CORSCredentials": true
+    }
+  }

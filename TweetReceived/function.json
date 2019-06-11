@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "name": "tweet",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "tweets",
+      "connection": "TweetsQueue"
+    },
+    {
+      "type": "signalR",
+      "name": "$return",
+      "hubName": "tweets",
+      "direction": "out"
+    }
+  ]
+}
